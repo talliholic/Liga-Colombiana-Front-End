@@ -1,0 +1,112 @@
+:root {
+  /* Primary Colors */
+  --primary-color-1: #eafaf1; /* Very Light Green */
+  --primary-color-2: #b3f7d9; /* Light Green */
+  --primary-color-3: #7bed9f; /* Moderate Green */
+  --primary-color-4: #45d487; /* Medium Green */
+  --primary-color-5: #16a085; /* Dark Green */
+  --primary-color-6: #117a65; /* Very Dark Green */
+
+  /* Secondary Colors */
+  --secondary-color-1: #ebf5fb; /* Very Light Blue */
+  --secondary-color-2: #aed6f1; /* Light Blue */
+  --secondary-color-3: #7fb3d5; /* Moderate Blue */
+  --secondary-color-4: #4d8eb9; /* Medium Blue */
+  --secondary-color-5: #2c3e50; /* Dark Blue */
+  --secondary-color-6: #1c2833; /* Very Dark Blue */
+
+  /* Background and Text Colors */
+  --background-color-1: #f5f5f5; /* Very Light Gray */
+  --background-color-2: #e0e0e0; /* Light Gray */
+  --text-color-1: #333333; /* Dark Text */
+  --text-color-2: #ffffff; /* White Text */
+}
+
+* {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+  color: var(--secondary-color-6);
+}
+
+a:hover {
+  font-style: italic;
+}
+
+body {
+  background-color: var(--primary-color-6);
+  color: var(--primary-color-1);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+caption {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px 0;
+  color: var(--secondary-color-5);
+  background-color: var(--primary-color-3);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.left {
+  text-align: left;
+}
+
+.light-link {
+  color: var(--primary-color-1);
+}
+
+.light-link:hover {
+  font-style: italic;
+}
+
+.matches td,
+.matches caption {
+  background-color: var(--secondary-color-5);
+  color: var(--secondary-color-1);
+}
+
+main {
+  margin: 0px auto;
+  width: fit-content;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+nav {
+  margin: 5px auto;
+  width: fit-content;
+}
+
+select {
+  background-color: var(--primary-color-2);
+  padding: 3px;
+}
+
+table {
+  margin: 10px;
+}
+
+th {
+  background-color: var(--secondary-color-5);
+  color: var(--secondary-color-1);
+  padding: 5px;
+}
+
+td {
+  text-align: right;
+  background-color: var(--primary-color-3);
+  color: var(--text-color-1);
+  border: 1px solid var(--background-color-1);
+  padding: 5px;
+}
